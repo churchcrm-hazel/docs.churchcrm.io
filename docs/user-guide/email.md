@@ -15,7 +15,7 @@ Before sending emails, ensure your system administrator has configured email set
 
 ## In-App Email Composer
 
-As of **7.5.0**, ChurchCRM includes an in-app email composer that replaces the old mailto: link approach. The composer works across all email entry points — people dashboard, group view, and cart — and handles unlimited recipient lists without hitting browser URL length limits.
+ChurchCRM includes an in-app email composer that works across all email entry points — people dashboard, group view, and cart — and handles unlimited recipient lists.
 
 ### How to use it
 
@@ -63,8 +63,3 @@ As of **7.5.0**, ChurchCRM includes an in-app email composer that replaces the o
 - Use the in-app composer for ad-hoc group and cart emails.
 - Keep your [Classifications](Classifications) updated to target the right audiences.
 
----
-
-## Migration Note (7.5.1)
-
-The `sMailtoDelimiter` setting (previously in **Admin → System Settings**) has been removed in 7.5.1. It controlled the separator used in the old mailto: links, which are no longer generated. The 7.5.1 database migration removes this setting automatically — no manual action required.
